@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from IPython.display import display
-fandango = pd.read_csv("C:\\Users\\sapch\\ML_python\\06-Capstone-Project\\fandango_scrape.csv")
+fandango = pd.read_csv("fandango_scrape.csv")
 fandango.head()
 plt.figure(figsize=(10,4),dpi=150)
 sns.scatterplot(data=fandango,x='RATING',y='VOTES')
